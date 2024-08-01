@@ -16,7 +16,8 @@ The Blogging Website Clone is a web development project designed to replicate a 
 - **Responsive Design**: Optimized for various screen sizes and devices.
 
 ## Technologies Used
-
+- **Language**:
+  - **Typescript**: Typescript for strict type checking.
 - **Frontend**:
   - **React**: For building the user interface.
   - **React Router DOM**: For handling page navigation.
