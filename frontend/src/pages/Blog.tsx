@@ -22,6 +22,9 @@ export const Blog = ()=>{
     }
     
     return<>
-        <FullBlog title={blog.title} content={blog.content} name={blog.author.name}/>
+    <div className="">
+            <FullBlog title={blog.title} content={blog.content} name={blog.author.name}/>
+    </div>
+        
     </>
 }
