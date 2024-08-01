@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Signin } from './pages/Signin'
 import { Signup } from './pages/Signup'
 import { Blog } from './pages/Blog'
@@ -17,6 +17,7 @@ function App() {
         <Route path='/blogs' element={<Blogs/>}/>
         <Route path='/blog/:id' element={<Blog/>}/>
         <Route path='/publish' element = {<Publish/>}/>
+        <Route path='/' element={<Navigate replace to="/signin" />} />
       </Routes>
       </BrowserRouter>
     </>
